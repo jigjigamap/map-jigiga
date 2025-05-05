@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jigjiga Service Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+  <div class="header">
+    <h1><i class="fas fa-map-marked-alt"></i> Jigjiga Services Map</h1>
+    <div class="controls">
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="Search services...">
+        <button id="search-btn"><i class="fas fa-search"></i></button>
+      </div>
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="hospital"><i class="fas fa-hospital"></i> Hospitals</button>
+        <button class="filter-btn" data-filter="hostel"><i class="fas fa-bed"></i> Hostels</button>
+        <button class="filter-btn" data-filter="taxi"><i class="fas fa-taxi"></i> Taxis</button>
+      </div>
+      <button id="locate-btn"><i class="fas fa-location-arrow"></i> Locate Me</button>
+    </div>
+  </div>
+  
+  <div id="map"></div>
+  
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Jigjiga General Hospital",
+    "type": "hospital",
+    "phone": "+251900000001",
+    "lat": 9.3501,
+    "lng": 42.8001,
+    "address": "Main Road, Jigjiga"
+  },
+  {
+    "id": 2,
+    "name": "Peace Hostel",
+    "type": "hostel",
+    "phone": "+251900000002",
+    "lat": 9.3512,
+    "lng": 42.8032,
+    "address": "Near University, Jigjiga"
+  },
+  {
+    "id": 3,
+    "name": "Taxi Station A",
+    "type": "taxi",
+    "phone": "+251900000003",
+    "lat": 9.3530,
+    "lng": 42.7978,
+    "address": "City Center, Jigjiga"
+  },
+  {
+    "id": 4,
+    "name": "Regional Hospital",
+    "type": "hospital",
+    "phone": "+251900000004",
+    "lat": 9.3550,
+    "lng": 42.8050,
+    "address": "Airport Road, Jigjiga"
+  },
+  {
+    "id": 5,
+    "name": "Student Hostel",
+    "type": "hostel",
+    "phone": "+251900000005",
+    "lat": 9.3480,
+    "lng": 42.8020,
+    "address": "Near College, Jigjiga"
+  },
+  {
+    "id": 6,
+    "name": "City Taxi Service",
+    "type": "taxi",
+    "phone": "+251900000006",
+    "lat": 9.3520,
+    "lng": 42.7950,
+    "address": "Market Area, Jigjiga"
+  }
+]
